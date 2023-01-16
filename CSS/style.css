@@ -130,12 +130,17 @@ footer ul :nth-child(1){
     justify-content: center;
     
 }
+.container-promo{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
 
 .panes h1{
     margin-bottom: 50px;
 }
 
-.panes div img:nth-child(9){
+.panes div  img:nth-child(9){
     grid-area: lin;
     width: 300px;
     height: auto;
@@ -189,7 +194,12 @@ footer ul :nth-child(1){
     height: 400px;
     padding: 0.5fr;
     margin-top: 10px;
-
+    display: flex;
+ }
+ .container-promo{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
  }
 
  .box{
@@ -231,3 +241,14 @@ footer ul :nth-child(1){
     font-size: 1.5rem;
     padding-top: 20 px;
  }
+
+ /* Página Menú */
+.container-menu{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+
+
+
