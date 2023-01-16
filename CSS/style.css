@@ -139,11 +139,13 @@ footer ul :nth-child(1){
     grid-area: lin;
     width: 300px;
     height: auto;
+   
 }
 .panes div img:nth-child(2){
     grid-area: can;
     width: 300px;
     height: auto;
+    
 }
 .panes div img:nth-child(3){
     grid-area: rollo;
@@ -185,7 +187,41 @@ footer ul :nth-child(1){
  /* Página promociones */
  .mis-promos{
     height: 400px;
-    padding: 0.5fr
+    padding: 0.5fr;
+    margin-top: 10px;
+
+ }
+
+ .box{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;;
+    
+ }
+
+ .container-box:hover .box-one{
+    transform: translateX(1200px);
+ }
+ .container-box:hover .box-two{
+    transform: translateX(1200px);
+ }
+ .container-box:hover .box-three{
+    transform: translateX(1200px);
+ }
+ 
+ .box-one{
+    background-color: goldenrod;
+    transition: all 1.5s linear;
+ }
+
+ .box-two{
+    background-color: orangered;
+    transition: all 3s ease-in;
+ }
+
+ .box-three{
+    background-color: rgba(99, 65, 3, 0.973);
+    transition: all 5s ease-out;
  }
 
  /* Página contacto */
