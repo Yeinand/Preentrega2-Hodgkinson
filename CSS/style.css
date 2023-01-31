@@ -206,7 +206,7 @@ font-family: 'Tangerine', cursive;*/
   margin-top: 30px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 578px) {
   .panes div {
     display: flex;
     justify-content: center;
@@ -242,6 +242,7 @@ font-family: 'Tangerine', cursive;*/
   text-align: center;
   font-size: 1.5rem;
   padding-top: 20 px;
+
 }
 
 /* Página Menú */
