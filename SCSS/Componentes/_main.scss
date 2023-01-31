@@ -1,0 +1,47 @@
+
+main{
+    div{
+        div {
+            img{
+                justify-content: center;
+            }
+        }
+        
+    }
+    h1 {
+        color:brown;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Tangerine', cursive;
+        font-size: 2rems;
+        padding: 30px;
+        margin-top: 1fr;
+    }
+    p {
+        color:$color;
+        text-align: justify;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 22;
+        display: flex;
+        flex-direction: row;
+        padding: 1fr; 
+    }
+
+}
+
+
+div img{
+    width: 320px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 10px;  
+}
+
+
+.menu{
+    height: 1200px;
+    width: 800px;
+    display: flex;
+}
+

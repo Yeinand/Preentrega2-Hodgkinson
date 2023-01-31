@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    img {
+        width: 200px;
+    }
+    .foto-ata{
+        height: 100%;
+        margin-top: 30px;
+    }
+    nav {
+        background-color: $bg-color;
+        border-radius: 5%;
+        ul {
+            list-style-type: none;
+            font-family: "Playfair Display", serif;
+            font-size: 1.5rem;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            margin-right: 20px;
+            gap: 20px; 
+            
+        }
+    }
+  }

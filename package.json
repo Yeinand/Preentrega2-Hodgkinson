@@ -1,0 +1,26 @@
+{
+  "name": "preentrega1-hodgkinson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yeinand/Preentrega2-Hodgkinson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yeinand/Preentrega2-Hodgkinson/issues"
+  },
+  "homepage": "https://github.com/Yeinand/Preentrega2-Hodgkinson#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
