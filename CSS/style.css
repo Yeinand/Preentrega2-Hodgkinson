@@ -37,11 +37,7 @@ header {
   justify-content: space-between;
 }
 header img {
-  width: 200px;
-}
-header .foto-ata {
-  height: 100%;
-  margin-top: 30px;
+  width: 150px;
 }
 header nav {
   background-color: darkgoldenrod;
@@ -55,7 +51,6 @@ header nav ul {
   flex-direction: row;
   align-items: flex-end;
   margin-right: 20px;
-  gap: 20px;
 }
 
 footer {
@@ -65,15 +60,15 @@ footer {
   font-size: 1.5rem;
   background-color: darkgoldenrod;
   display: grid;
-  grid-template-columns: 0.5fr 1fr 1fr;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
   grid-template-rows: auto;
   justify-items: center;
   align-items: center;
   margin-top: 30px;
 }
 footer img {
-  width: 200px;
-  border-radius: 35%;
+  width: 150px;
+  border-radius: 20%;
 }
 footer ul {
   list-style-type: none;
@@ -88,6 +83,21 @@ footer ul i {
   color: white;
 }
 
+@media screen and (max-width: 578px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 578px) {
+  footer p {
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: left;
+  }
+}
 main div div img {
   justify-content: center;
 }
@@ -111,24 +121,8 @@ main p {
   padding: 1fr;
 }
 
-div img {
-  width: 320px;
-  display: inline-flex;
-  flex-wrap: wrap;
-  margin-left: 10px;
-}
-
-.menu {
-  height: 1200px;
-  width: 800px;
-  display: flex;
-}
-
-/*font-family: 'Playfair Display', serif;
-font-family: 'Tangerine', cursive;*/
-* {
-  margin: 0;
-  padding: 0;
+body {
+  overflow-x: hidden;
 }
 
 /* Página Panes */
@@ -206,7 +200,7 @@ font-family: 'Tangerine', cursive;*/
   margin-top: 30px;
 }
 
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 576px) {
   .panes div {
     display: flex;
     justify-content: center;
@@ -225,7 +219,7 @@ font-family: 'Tangerine', cursive;*/
 /* Página promociones */
 .mis-promos {
   height: 400px;
-  padding: 0.5fr;
+  padding: 10px;
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -237,21 +231,62 @@ font-family: 'Tangerine', cursive;*/
   justify-items: center;
 }
 
+@media screen and (max-width: 578px) {
+  .mis-promos {
+    height: 100%;
+  }
+}
 /* Página contacto */
 .mi-dir {
   text-align: center;
   font-size: 1.5rem;
-  padding-top: 20 px;
-
+  padding-top: 3rem;
 }
 
-/* Página Menú */
-.container-menu {
+div form fieldset {
   display: flex;
   flex-direction: column;
-  justify-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+div form fieldset legend {
+  color: brown;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Tangerine", cursive;
+  font-size: 2.5rem;
+  padding: 30px;
+  margin-top: 1rem;
+}
+div form fieldset label {
+  color: darkgoldenrod;
+  font-family: "Quicksand", sans-serif;
+  font-size: 22;
 }
 
-/* T */
+.boton {
+  background-color: darkgoldenrod;
+  margin-top: 10px;
+  color: white;
+  border: 0;
+}
+
+@media screen and (max-width: 578px) {
+  div form fieldset {
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 578px) {
+  main div div div p {
+    font-size: 1rem;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
 
 /*# sourceMappingURL=style.css.map */

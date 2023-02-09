@@ -1,0 +1,19 @@
+ /* Página promociones */
+ .mis-promos{
+    height: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .container-promo{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+ }
+
+@media screen and (max-width: 578px) {
+    .mis-promos{
+        height: 100%;
+    }
+}

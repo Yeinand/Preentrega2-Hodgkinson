@@ -1,0 +1,58 @@
+/* Página contacto */
+
+.mi-dir {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+ }
+
+ div{
+    form{
+        
+    fieldset{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 20%;
+        margin-right: 20%;
+
+        legend{
+            color:brown;
+            font-style: italic;
+            font-weight: bold;
+            text-align: center;
+            font-family: 'Tangerine', cursive;
+            font-size: 2.5rem;
+            padding: 30px;
+            margin-top: 1rem;
+        }
+        label{
+            color:$color;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 22;
+        }
+        
+    } 
+   
+ }
+}
+
+.boton{
+    background-color:$bg-color;
+    margin-top: 10px;
+    color: white;
+    border: 0;
+ }
+
+ @media screen and (max-width:578px){
+    div form fieldset{
+        margin:20px;
+    }
+}
+
+@media screen and (max-width:578px){
+    main div div div p{
+        font-size: 1rem;
+    }
+}

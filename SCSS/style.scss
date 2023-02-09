@@ -5,9 +5,17 @@
 
 // componentes
 @import './Componentes/_header.scss';
-@import './Componentes/footer';
+@import './Componentes/_footer.scss';
 @import './Componentes/main';
-@import './Componentes/_oldstyle.scss';
+@import './Componentes/panes';
+@import './Componentes/promos';
+@import './Componentes/contacto';
+
+
+*{
+    margin:0;
+    padding:0;
+}
 
 
 
